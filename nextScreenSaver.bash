@@ -5,7 +5,7 @@ pointerFile="pointer"
 currentPointer=0
 ipfile="reMarkable"
 
-ls *.png > $pngList
+ls ScreenSavers/*.png > $pngList
 
 if [ ! -f $pointerFile ]; then
 	echo 1 > $pointerFile
